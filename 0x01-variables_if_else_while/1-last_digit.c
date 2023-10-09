@@ -5,7 +5,7 @@
 /**
  * main - entry point.
  * Description: gives the last digit as an output compared to 5.
- * return: 0 (success).
+ * Return: 0 (success).
  */
 
 int main(void)
