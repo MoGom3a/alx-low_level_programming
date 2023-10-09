@@ -8,14 +8,17 @@
 
 int main(void)
 {
-	char ch = '1';
+	char ch = '0';
 
 	while (ch <= '9')
 	{
 		putchar(ch);
+
 		if (ch != '9')
+		{
 			putchar(',');
 			putchar(' ');
+		}
 		ch++;
 	}
 	putchar('\n');
