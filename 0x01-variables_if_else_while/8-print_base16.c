@@ -9,7 +9,7 @@
 int main(void)
 {
 	char ch = '0';
-	char CH = 'A';
+	char CH = 'a';
 
 	/*for NUMBERS*/
 	while (ch <= '9')
@@ -19,7 +19,7 @@ int main(void)
 	}
 
 	/*for LETTERS*/
-	while (CH <= 'F')
+	while (CH <= 'f')
 	{
 		putchar(CH);
 		CH++;
