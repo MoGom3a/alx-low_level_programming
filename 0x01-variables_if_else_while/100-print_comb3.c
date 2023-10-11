@@ -21,8 +21,8 @@ int main(void)
 				putchar(n2 + 48);
 				if (n1 + n2 != 17)
 				{
-					putchar(' ');
 					putchar(',');
+					putchar(' ');
 				}
 			}
 			n2++;
