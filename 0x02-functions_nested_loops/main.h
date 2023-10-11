@@ -2,7 +2,8 @@
 #define MAIN_H
 #include <stdio.h>
 
-int _putchar(cha c);
+int _putchar(char c);
+void print_alphabet(void);
 
 
 
