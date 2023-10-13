@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * _isdigit - check if c is a digit
- * @c: int to check
+ * _isupper - check if c is upper
+ * @c: char to check
  *
  * Return: 0 or 1
  */
