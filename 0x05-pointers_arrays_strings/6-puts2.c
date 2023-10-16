@@ -14,15 +14,9 @@ void puts2(char *str)
 
 	while (str[c] != '\n')
 	{
-		if (c == 0)
-			_putchar(*str);
-		
-		else if (c % 2 != 0)
-			continue;
-		
-		else
-			_putchar(*str);
-		
+		if (c % 2 == 0)
+			_putchar(str[c]);
 		c++;
 	}
+	_putchar('\n');
 }	
