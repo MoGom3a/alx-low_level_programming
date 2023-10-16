@@ -1,7 +1,8 @@
 #include <stdio.h>
 
 /*
- *void swap_int(int *a, int *b) - takes 2 int values of a pionters
+ *swap_int : takes 2 int values of a pionters stored in 2 variables
+ *		a & b
  *
  *@a: the first pointer
  *@b: the 2nd pointer
