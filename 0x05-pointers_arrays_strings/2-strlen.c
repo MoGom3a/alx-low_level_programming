@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "stdio.h"
 
 /**
  *_strlen - takes an array of char type and then points to it
@@ -10,10 +10,10 @@
 
 int _strlen(char *s)
 {
-	int leng = 0;
+	int leng;
 
-	for (leng; *s != '\0'; s++)
-		leng++;
+	for (leng = 0; *s != '\0'; s++)
+		++leng;
 
 	return (leng);
 }
