@@ -1,4 +1,4 @@
-#include <main.h>
+#include <stdio.h>
 
 /*
  *void swap_int(int *a, int *b) - takes 2 int values of a pionters
