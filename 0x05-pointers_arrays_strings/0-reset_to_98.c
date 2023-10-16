@@ -1,4 +1,4 @@
-#include<main.h>
+#include <stdio.h>
 
 /**
  * reset_to_98 - takes a pointer parameter of an int type
@@ -9,7 +9,7 @@
  *Return: nothing
  */
 
-void reset_to_98(int *n);
+void reset_to_98(int *n)
 {
 	*n = 98;
 }
