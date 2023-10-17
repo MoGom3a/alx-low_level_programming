@@ -12,11 +12,11 @@
 
 void print_array(int *a, int n)
 {
-	int n;
+	int l;
 
-	for (n = 0; a[n] != '\0'; n++)
+	for (l = 0; a[l] != '\0'; l++)
 	{
-		printf("%d, ", a[n]);
+		printf("%d, ", a[l]);
 	}
 	printf("\n");
 }
