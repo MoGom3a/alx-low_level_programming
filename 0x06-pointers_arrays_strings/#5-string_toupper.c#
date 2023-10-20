@@ -1,0 +1,12 @@
+#include "main.h"
+
+/**
+ *reverse_array - function to concatinate 2 str
+ *
+ *@a: the destination
+ *@n: the source for input
+ *
+ * Return: Pointer to resulting str
+ */
+
+
