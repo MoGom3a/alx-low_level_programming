@@ -6,7 +6,7 @@
  * Return: Pointer to resulting str
  */
 
-char *leet(char*c)
+char *leet(char *c)
 {
 	char *cp = c;
 	char key[] = {'A', 'E', 'O', 'T', 'L'};
