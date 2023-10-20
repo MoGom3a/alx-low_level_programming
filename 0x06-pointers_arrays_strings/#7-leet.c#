@@ -1,0 +1,9 @@
+#include "main.h"
+
+/**
+ *cap_string - function to concatinate 2 str
+ *@str : The input string to be modified.
+ * Return: Pointer to resulting str
+ */
+
+
