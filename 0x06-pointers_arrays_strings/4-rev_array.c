@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- *_reverse_array - function to concatinate 2 str
+ *reverse_array - function to concatinate 2 str
  *
  *@a: the destination
  *@n: the source for input
@@ -13,7 +13,7 @@ void reverse_array(int *a, int n)
 {
 	int index, j;
 
-	j = n-1;
+	j = n - 1;
 
 	for (index = 0; index < j / 2; index++)
 	{
