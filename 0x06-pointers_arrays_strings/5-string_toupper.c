@@ -2,11 +2,11 @@
 
 /**
  *string_toupper - function to concatinate 2 str
- * : The input string to be modified.
+ *@str : The input string to be modified.
  * Return: Pointer to resulting str
  */
 
-char *string_toupper(char *)
+char *string_toupper(char *str)
 {
 	int index;
 
