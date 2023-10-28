@@ -1,3 +1,4 @@
+#include <stdlib.h>
 #include <stdio.h>
 
 /**
@@ -10,12 +11,12 @@
 
 int main(int argc, char *argv[])
 {
-	int total;
+	int sum;
 
 	if (argc == 3)
 	{
-		total = (atoi(argv[1]) * atoi(argv[2]));
-		printf("%d\n", total);
+		sum = atoi(argv[1]) * atoi(argv[2]);
+		printf("%d\n", sum);
 	}
 	else
 	{
@@ -25,3 +26,4 @@ int main(int argc, char *argv[])
 
 	return (0);
 }
+
