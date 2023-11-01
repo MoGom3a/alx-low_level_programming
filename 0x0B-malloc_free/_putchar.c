@@ -7,7 +7,7 @@
  *
  *Return: 1 (success) & -1 (error)
  */
-int_putchar(char c)
+int putchar(char c)
 {
 	return (write(1, &c,1));
 }
