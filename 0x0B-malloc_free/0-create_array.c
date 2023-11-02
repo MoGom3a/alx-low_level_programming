@@ -3,7 +3,7 @@
 #include <stdlib.h>
 
 /**
- * create_array - create array of size size and assign char 
+ * create_array - create array of size size and assign char
  * @size: size of array
  * @c: char to assign
  * Description: creat array of size size and assign char c
