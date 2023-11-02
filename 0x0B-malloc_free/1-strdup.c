@@ -23,9 +23,8 @@ char *_strdup(char *str)
 
 	if (m == 0)
 		return (NULL);
-
 	for (; i < size; i++)
-			m[i] = str[i];
+		m[i] = str[i];
 
 	return (m);
 }
